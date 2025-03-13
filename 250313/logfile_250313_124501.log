@@ -203,3 +203,7 @@
 2025-03-13 14:43:20.431606 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
 2025-03-13 14:43:20.445490 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
 2025-03-13 14:43:20.773357 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 18:43:22.744436 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 18:43:25.087611 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 18:43:25.093596 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 18:43:25.425807 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable

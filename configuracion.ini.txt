@@ -1,0 +1,5 @@
+[path]
+RutaArchivo = C:\Users\lauta\OneDrive\Escritorio\rocket_git\Planilla de facturacion - ACONCAGUA 02-2025
+
+
+

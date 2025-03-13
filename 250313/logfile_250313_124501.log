@@ -1,0 +1,201 @@
+2025-03-13 12:50:33.847953 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: ec998d44-292c-88b0-4eff-b64743eb4768 -  - datatime.now()
+2025-03-13 12:50:33.848927 - system - ERROR - EXCEPTION IN (<string> system, L_248 ""): NameError: name 'datatime' is not defined
+2025-03-13 12:51:03.455004 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:27.708566 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:28.016742 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:28.021729 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:28.329342 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:38.681543 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:42.088488 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:42.141025 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:51:42.460162 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:52:14.730284 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:52:16.181248 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:52:16.187232 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:52:16.507829 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 12:52:24.292972 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: list indices must be integers or slices, not str
+2025-03-13 12:53:45.889528 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: 5c99f658-5263-5d35-8b6c-0c785e8ca2c6 -  - datetime.now()
+2025-03-13 12:56:59.749255 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpascripts : module  id: 69db7c39-5137-ba36-166f-80d18ff5c540 -  - {"module_name":"AdvancedExcel","module":"Open","path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx","var_":"flag"}
+2025-03-13 12:57:01.164959 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: ea1a6345-f78c-e7fa-6567-ecbb883ea025 -  - 4
+2025-03-13 12:57:06.613833 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:57:06.615828 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:58:10.256633 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:58:10.258600 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:58:38.533999 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 12:58:40.171846 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:58:40.173840 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:58:53.637218 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:58:53.638188 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:59:08.821319 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:59:08.823313 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:59:30.492863 - rocketbot - INFO - request: LautaroP_EX2 : line 5 - rpalogic : evaluateIf  id: fe49dc6f-b258-2140-3c32-73fd369ec54a -  - {flag}
+2025-03-13 12:59:30.832606 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{fila}
+2025-03-13 12:59:30.835598 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 12:59:31.102759 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 12:59:31.105790 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_107 ""): SyntaxError: invalid syntax (<string>, line 0)
+2025-03-13 12:59:58.237940 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:00:42.263328 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:01:57.717976 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:01:57.718974 - rocketbot - INFO - For count: 1
+2025-03-13 13:01:57.984728 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":1}
+2025-03-13 13:01:57.987758 - rocketbot - INFO - For count: 2
+2025-03-13 13:01:58.092813 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":2}
+2025-03-13 13:01:58.095804 - rocketbot - INFO - For count: 3
+2025-03-13 13:01:58.372075 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":3}
+2025-03-13 13:01:58.374070 - rocketbot - INFO - For count: 4
+2025-03-13 13:01:58.477915 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":4}
+2025-03-13 13:01:58.478885 - rocketbot - INFO - For count: 5
+2025-03-13 13:01:58.740445 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":5}
+2025-03-13 13:01:58.741346 - rocketbot - INFO - For count: 5
+2025-03-13 13:06:31.674107 - rocketbot - INFO - request: LautaroP_EX2 : line 4.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:07:11.268702 - rocketbot - INFO - request: LautaroP_EX2 : line 4.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:10:01.775391 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: b8f59bbb-cff5-597c-319b-b87e1ecbde29 -  - 0
+2025-03-13 13:13:54.508266 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: 5c99f658-5263-5d35-8b6c-0c785e8ca2c6 -  - datetime.now()
+2025-03-13 13:13:54.632749 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: b8f59bbb-cff5-597c-319b-b87e1ecbde29 -  - 0
+2025-03-13 13:13:54.829617 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpasystem : setVar  id: ea1a6345-f78c-e7fa-6567-ecbb883ea025 -  - 4
+2025-03-13 13:13:54.953268 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpascripts : module  id: 69db7c39-5137-ba36-166f-80d18ff5c540 -  - {"module_name":"AdvancedExcel","module":"Open","path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx","var_":"flag"}
+2025-03-13 13:14:05.921222 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 13:14:07.835268 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:14:20.348536 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:14:20.349538 - rocketbot - INFO - For count: 1
+2025-03-13 13:14:20.685664 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:20.689789 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:20.934429 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:14:21.011294 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":1}
+2025-03-13 13:14:21.012314 - rocketbot - INFO - For count: 2
+2025-03-13 13:14:21.244086 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:21.245083 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:21.323906 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:14:21.557584 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":2}
+2025-03-13 13:14:21.559556 - rocketbot - INFO - For count: 3
+2025-03-13 13:14:21.647415 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:21.648412 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:21.881094 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:14:21.959356 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":3}
+2025-03-13 13:14:21.960363 - rocketbot - INFO - For count: 4
+2025-03-13 13:14:22.194867 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:22.197856 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:22.270164 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:14:22.520349 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":4}
+2025-03-13 13:14:22.521346 - rocketbot - INFO - For count: 5
+2025-03-13 13:14:22.581185 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:22.582183 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:22.829051 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:14:22.890207 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":5}
+2025-03-13 13:14:22.891204 - rocketbot - INFO - For count: 5
+2025-03-13 13:14:35.315338 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:35.316335 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:14:35.987475 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:14:35.993437 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_286 ""): com_error: (-2147417846, 'El filtro de mensaje indicó que la aplicación está ocupada.', None, None)
+2025-03-13 13:15:40.216748 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpaexcel : readxlsx  id: 1eed5fe8-741d-0728-386a-c768b9d7fd5a -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-13 13:15:49.265508 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 13:15:50.403718 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:15:51.445201 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:15:51.446201 - rocketbot - INFO - For count: 1
+2025-03-13 13:15:51.778047 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:15:52.041159 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:15:52.089221 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":1}
+2025-03-13 13:15:52.089221 - rocketbot - INFO - For count: 2
+2025-03-13 13:15:52.363225 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:15:52.409102 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:15:52.687836 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":2}
+2025-03-13 13:15:52.689824 - rocketbot - INFO - For count: 3
+2025-03-13 13:15:52.732690 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:15:53.011663 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:15:53.057672 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":3}
+2025-03-13 13:15:53.058659 - rocketbot - INFO - For count: 4
+2025-03-13 13:15:53.322928 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:15:53.369803 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:15:53.635227 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":4}
+2025-03-13 13:15:53.636207 - rocketbot - INFO - For count: 5
+2025-03-13 13:15:53.681087 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:15:53.942157 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:15:54.004160 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":5}
+2025-03-13 13:15:54.004160 - rocketbot - INFO - For count: 5
+2025-03-13 13:16:05.397175 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:16:05.398175 - rocketbot - INFO - For count: 1
+2025-03-13 13:16:05.733310 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:16:05.997154 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:17:40.814702 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: 5c99f658-5263-5d35-8b6c-0c785e8ca2c6 -  - datetime.now()
+2025-03-13 13:17:40.874738 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: b8f59bbb-cff5-597c-319b-b87e1ecbde29 -  - 0
+2025-03-13 13:17:41.124162 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpasystem : setVar  id: ea1a6345-f78c-e7fa-6567-ecbb883ea025 -  - 4
+2025-03-13 13:17:41.437671 - rocketbot - INFO - request: LautaroP_EX2 : line 5 - rpalogic : evaluateIf  id: fe49dc6f-b258-2140-3c32-73fd369ec54a -  - {flag}
+2025-03-13 13:17:41.527408 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 13:17:41.759731 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:17:41.887256 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:17:41.889221 - rocketbot - INFO - For count: 1
+2025-03-13 13:17:42.084206 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:17:42.208872 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:17:42.407110 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: bdfb858d-4548-2433-886e-067bb74fab76 -  - {cont} + 1
+2025-03-13 13:17:48.366572 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: 5c99f658-5263-5d35-8b6c-0c785e8ca2c6 -  - datetime.now()
+2025-03-13 13:17:48.627359 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: b8f59bbb-cff5-597c-319b-b87e1ecbde29 -  - 0
+2025-03-13 13:17:48.673236 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpasystem : setVar  id: ea1a6345-f78c-e7fa-6567-ecbb883ea025 -  - 4
+2025-03-13 13:17:48.937539 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpaexcel : readxlsx  id: 1eed5fe8-741d-0728-386a-c768b9d7fd5a -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-13 13:17:49.735404 - rocketbot - INFO - request: LautaroP_EX2 : line 5 - rpalogic : evaluateIf  id: fe49dc6f-b258-2140-3c32-73fd369ec54a -  - {flag}
+2025-03-13 13:17:50.088757 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 13:17:50.353958 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:17:50.431140 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:17:50.432138 - rocketbot - INFO - For count: 1
+2025-03-13 13:17:50.739382 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:17:50.990008 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: bdfb858d-4548-2433-886e-067bb74fab76 -  - {cont} + 1
+2025-03-13 13:18:00.171375 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: 4aac6c00-a2e9-648a-284d-618be28ea307 -  - {cont_filas} + 1
+2025-03-13 13:18:02.563081 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.2 - rpascripts : module  id: 638b3605-8bf6-7927-5fb7-a290e8eff0d8 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{cliente}"}
+2025-03-13 13:18:07.131248 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.3 - rpascripts : module  id: c3502b6a-3b7d-09d3-6ac8-420f1ae5cbff -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{cliente}","cell_range2":"A1:N3"}
+2025-03-13 13:18:10.571498 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.4 - rpascripts : module  id: 7ed3c3de-e8f8-3eba-1ded-c2e711a8b4a7 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont]","sheet_name2":"{cliente}","cell_range2":"A4:N4","option":"all","operation":"add"}
+2025-03-13 13:18:10.605464 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_635 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 13:18:10.607405 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 13:20:04.618399 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.5 - rpasystem : setVar  id: 2b3be0f0-8f84-f238-552c-0a1f5ff2814b -  - {cont} + 1
+2025-03-13 13:20:05.803069 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.4 - rpascripts : module  id: 7ed3c3de-e8f8-3eba-1ded-c2e711a8b4a7 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont]","sheet_name2":"{cliente}","cell_range2":"A4:N4","option":"formulas_and_number_formats","operation":"add"}
+2025-03-13 13:20:05.829977 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_635 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 13:20:05.831971 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): com_error: (-2147352567, 'Ocurrió una excepción.', (0, None, None, None, 0, -2146827284), None)
+2025-03-13 13:21:27.151681 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.3 - rpascripts : module  id: c3502b6a-3b7d-09d3-6ac8-420f1ae5cbff -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{cliente}","cell_range2":"A1:N3"}
+2025-03-13 13:21:44.666389 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: 5c99f658-5263-5d35-8b6c-0c785e8ca2c6 -  - datetime.now()
+2025-03-13 13:21:44.919677 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpasystem : setVar  id: b8f59bbb-cff5-597c-319b-b87e1ecbde29 -  - 0
+2025-03-13 13:21:44.981511 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpasystem : setVar  id: ea1a6345-f78c-e7fa-6567-ecbb883ea025 -  - 4
+2025-03-13 13:21:45.232197 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpaexcel : readxlsx  id: 1eed5fe8-741d-0728-386a-c768b9d7fd5a -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-13 13:21:45.989291 - rocketbot - INFO - request: LautaroP_EX2 : line 5 - rpalogic : evaluateIf  id: fe49dc6f-b258-2140-3c32-73fd369ec54a -  - {flag}
+2025-03-13 13:21:46.329976 - rocketbot - INFO - request: LautaroP_EX2 : line 5.1 - rpascripts : module  id: 95608f56-6b16-dc56-3b00-60f8cf2d71c8 -  - {"module_name":"AdvancedExcel","module":"countRows","countAll":true,"row_":"C","var_":"filas"}
+2025-03-13 13:21:46.591283 - rocketbot - INFO - request: LautaroP_EX2 : line 5.2 - rpaexcel : getcell  id: 509576fc-b25d-25c6-ad8d-81ee4ce62118 -  - C{cont}:C{filas}
+2025-03-13 13:21:46.746868 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":0}
+2025-03-13 13:21:46.749860 - rocketbot - INFO - For count: 1
+2025-03-13 13:21:46.911081 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:21:47.066823 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:21:47.236021 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: bdfb858d-4548-2433-886e-067bb74fab76 -  - {cont} + 1
+2025-03-13 13:21:47.373782 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":1}
+2025-03-13 13:21:47.374759 - rocketbot - INFO - For count: 2
+2025-03-13 13:21:47.575899 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:21:47.685752 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:21:47.889607 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: bdfb858d-4548-2433-886e-067bb74fab76 -  - {cont} + 1
+2025-03-13 13:21:47.995036 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":2}
+2025-03-13 13:21:47.996034 - rocketbot - INFO - For count: 3
+2025-03-13 13:21:48.243133 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:21:48.304074 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:21:48.552484 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: 4aac6c00-a2e9-648a-284d-618be28ea307 -  - {cont_filas} + 1
+2025-03-13 13:21:48.613322 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.2 - rpascripts : module  id: 638b3605-8bf6-7927-5fb7-a290e8eff0d8 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{cliente}"}
+2025-03-13 13:21:48.866800 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.3 - rpascripts : module  id: c3502b6a-3b7d-09d3-6ac8-420f1ae5cbff -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{cliente}","cell_range2":"A1:N3"}
+2025-03-13 13:21:49.014946 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.4 - rpasystem : setVar  id: 2b3be0f0-8f84-f238-552c-0a1f5ff2814b -  - {cont} + 1
+2025-03-13 13:21:49.292678 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":3}
+2025-03-13 13:21:49.293676 - rocketbot - INFO - For count: 4
+2025-03-13 13:21:49.367531 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:21:49.600743 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:21:49.677997 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: 4aac6c00-a2e9-648a-284d-618be28ea307 -  - {cont_filas} + 1
+2025-03-13 13:21:49.910966 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.2 - rpascripts : module  id: 638b3605-8bf6-7927-5fb7-a290e8eff0d8 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{cliente}"}
+2025-03-13 13:21:49.995712 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.3 - rpascripts : module  id: c3502b6a-3b7d-09d3-6ac8-420f1ae5cbff -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{cliente}","cell_range2":"A1:N3"}
+2025-03-13 13:21:50.778619 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":4}
+2025-03-13 13:21:50.779617 - rocketbot - INFO - For count: 5
+2025-03-13 13:21:50.870663 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.1 - rpaexcel : getcell  id: 0555e17d-4cb0-eaf2-f498-8eb7e9d53f19 -  - L{cont}
+2025-03-13 13:21:51.088192 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2 - rpalogic : evaluateIf  id: acef076c-8b9d-e601-078c-708278bcdc52 -  - {iva} >= 500000
+2025-03-13 13:21:51.183642 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.1 - rpasystem : setVar  id: 4aac6c00-a2e9-648a-284d-618be28ea307 -  - {cont_filas} + 1
+2025-03-13 13:21:51.397027 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.2 - rpascripts : module  id: 638b3605-8bf6-7927-5fb7-a290e8eff0d8 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{cliente}"}
+2025-03-13 13:21:51.490277 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.3 - rpascripts : module  id: c3502b6a-3b7d-09d3-6ac8-420f1ae5cbff -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{cliente}","cell_range2":"A1:N3"}
+2025-03-13 13:21:51.783981 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3.2.4 - rpasystem : setVar  id: 2b3be0f0-8f84-f238-552c-0a1f5ff2814b -  - {cont} + 1
+2025-03-13 13:21:51.894711 - rocketbot - INFO - request: LautaroP_EX2 : line 5.3 - rpalogic : for  id: 0310f50b-e687-979b-09b5-24816e7cbbc3 -  - {"iterable":"{nombres}","count":5}
+2025-03-13 13:21:51.896734 - rocketbot - INFO - For count: 5
+2025-03-13 13:41:14.519992 - rocketbot - INFO - request: LautaroP_EX2 : line 8 - rpasystem : setVar  id: 23eeb40e-09d4-b0d8-14bb-9850a837e688 -  - %%rocketbot_last_status%
+2025-03-13 13:41:14.521987 - system - ERROR - EXCEPTION IN (<string> system, L_248 ""): SyntaxError: invalid syntax (<string>, line 1)
+2025-03-13 13:42:26.268348 - rocketbot - INFO - request: LautaroP_EX2 : line 8 - rpasystem : setVar  id: 23eeb40e-09d4-b0d8-14bb-9850a837e688 -  - %%rocketbot_last_status%
+2025-03-13 13:42:26.270319 - system - ERROR - EXCEPTION IN (<string> system, L_248 ""): SyntaxError: invalid syntax (<string>, line 1)
+2025-03-13 14:01:35.201596 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 14:01:36.805379 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 14:01:36.820146 - getbot - ERROR - EXCEPTION IN (<string> getbot, L_1024 ""): TypeError: 'NoneType' object is not subscriptable
+2025-03-13 14:01:37.140317 - getBotOnBot - ERROR - EXCEPTION IN (<string> getBotOnBot, L_179 ""): TypeError: 'NoneType' object is not subscriptable

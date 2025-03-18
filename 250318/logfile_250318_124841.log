@@ -1,0 +1,53 @@
+2025-03-18 12:54:21.447098 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 12:54:24.451983 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-18 12:54:24.452953 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_69 ""): SyntaxError: invalid syntax (<string>, line 0)
+2025-03-18 12:55:21.678660 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 12:55:31.307658 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 12:55:41.450979 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 12:56:09.395442 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"archi_config.ini","variable":"{flag}"}
+2025-03-18 12:56:18.098835 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 12:58:23.772048 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/config.ini.ini","variable":"{flag}"}
+2025-03-18 12:58:39.879071 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/config.ini.ini","variable":"{flag}"}
+2025-03-18 12:59:08.835154 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/confi","variable":"{flag}"}
+2025-03-18 12:59:16.634735 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"dfbgsdfb","variable":"{flag}"}
+2025-03-18 13:01:04.165538 - rocketbot - INFO - request: Clase-2 : line 1 - rpascripts : module  id: c11be83f-95ba-29ef-ed23-1dec840f67f8 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archivo_config}","variable":"result"}
+2025-03-18 13:01:40.151006 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 13:01:49.394957 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 13:02:26.406175 - rocketbot - INFO - request: Clase-2 : line 1 - rpascripts : module  id: c11be83f-95ba-29ef-ed23-1dec840f67f8 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archivo_config}","variable":"result"}
+2025-03-18 13:02:54.779751 - rocketbot - INFO - request: Clase-2 : line 1 - rpascripts : module  id: c11be83f-95ba-29ef-ed23-1dec840f67f8 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archivo_config}","variable":"result"}
+2025-03-18 13:03:00.675836 - rocketbot - INFO - request: Clase-2 : line 1 - rpascripts : module  id: c11be83f-95ba-29ef-ed23-1dec840f67f8 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archivo_config}","variable":"result"}
+2025-03-18 13:03:23.084347 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 13:03:23.867140 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 13:03:24.507180 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-18 13:03:48.950782 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:03:48.955768 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:03:48.956765 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:04:12.442786 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-18 13:04:16.491529 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:04:16.495519 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:04:16.496535 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:04:18.507238 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-18 13:04:18.838924 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:04:18.841916 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:04:18.842913 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:05:11.333112 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:05:11.346644 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:05:11.349610 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:12:38.355088 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:12:38.361041 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:12:38.362038 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:14:23.908799 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-18 13:14:24.047428 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-18 13:14:24.217974 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:14:24.221962 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:14:24.222960 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:14:24.357599 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-18 13:15:25.540262 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 13:15:25.546246 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:15:25.547243 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:16:00.539509 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-18 13:16:00.802009 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-18 13:16:00.856968 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 13:16:00.857966 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
+2025-03-18 13:16:01.111408 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-18 13:16:01.112406 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists

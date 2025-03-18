@@ -7,3 +7,47 @@
 2025-03-17 17:27:31.377225 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo ","idvar":"{path}"}
 2025-03-17 17:27:41.266234 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"{path}"}
 2025-03-17 17:28:30.866147 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:32:59.234061 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:32:59.235038 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:33:14.984724 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:33:14.985721 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:35:33.349098 - rocketbot - INFO - request: Clase-2 : line 1 - rpascripts : module  id: c11be83f-95ba-29ef-ed23-1dec840f67f8 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archivo_config}","variable":"result"}
+2025-03-17 17:35:37.770389 - rocketbot - INFO - request: Clase-2 : line 2 - rpalogic : evaluateIf  id: 54fc693b-70f8-ce19-fa49-62c4b66934fc -  - {result}
+2025-03-17 17:35:38.178841 - rocketbot - INFO - request: Clase-2 : line 2.1 - rpascripts : module  id: 0d0ff7cf-717d-4026-5fd7-8ab347632d8d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"settings","iddato":"path","idvar":"path"}
+2025-03-17 17:35:38.181833 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'settings'
+2025-03-17 17:35:38.182831 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'settings'
+2025-03-17 17:35:38.429725 - rocketbot - INFO - request: Clase-2 : line 2.2 - rpascripts : module  id: 3ff55867-a6c0-088e-9138-71a169f496e2 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"settings","iddato":"path_log","idvar":"path_log"}
+2025-03-17 17:35:38.442689 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'settings'
+2025-03-17 17:35:38.445680 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'settings'
+2025-03-17 17:36:26.635615 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:36:26.637582 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:36:39.616854 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-17 17:36:41.424217 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-17 17:37:11.447849 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:37:50.578941 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"{flag}"}
+2025-03-17 17:38:05.999970 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:38:15.112261 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:38:15.113259 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:38:56.752748 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:47:30.280971 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:47:30.282966 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:47:43.720657 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:\\Users\\lauta\\OneDrive\\Escritorio\\rocket_git\\Planilla de facturacion - ACONCAGUA 02-2025"}
+2025-03-17 17:47:43.721654 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:48:05.153906 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":""}
+2025-03-17 17:48:05.154819 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:48:13.390928 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:48:49.696949 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:48:57.662711 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:49:04.031494 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:49:04.032468 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:49:08.191196 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:49:08.193191 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:49:42.679598 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:49:45.607100 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:49:45.608077 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:49:52.678326 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-17 17:49:59.662529 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-17 17:50:09.134739 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:50:09.135737 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-17 17:55:26.999876 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
+2025-03-17 17:55:27.000897 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists

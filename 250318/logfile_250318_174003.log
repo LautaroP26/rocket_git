@@ -1,0 +1,4 @@
+2025-03-18 17:43:34.123891 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-18 17:43:35.152742 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 17:43:35.156705 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'excel'
+2025-03-18 17:43:35.158735 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'excel'

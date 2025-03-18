@@ -51,3 +51,7 @@
 2025-03-18 13:16:00.857966 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'
 2025-03-18 13:16:01.111408 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"{path}"}
 2025-03-18 13:16:01.112406 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_192 ""): Exception: File not exists
+2025-03-18 16:32:27.275638 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-18 16:32:31.413677 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: 652d853d-1248-8412-9482-8f649e6a2c86 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"Excel","iddato":"RutaArchivo","idvar":"path"}
+2025-03-18 16:32:31.418664 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'Excel'
+2025-03-18 16:32:31.419661 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'Excel'

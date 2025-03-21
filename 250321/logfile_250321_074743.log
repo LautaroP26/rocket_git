@@ -1,0 +1,196 @@
+2025-03-21 07:54:32.624390 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: f807dd0c-26c1-df11-a662-47f91c36d344 -  - 4
+2025-03-21 07:54:33.006071 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 07:54:33.248446 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 07:54:33.329237 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 07:54:33.591180 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 07:54:33.674950 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpalogic : group  id: 373939e6-21de-4cb3-63bc-9326c911aad0 -  - 
+2025-03-21 07:54:34.005358 - rocketbot - INFO - request: LautaroP_EX2 : line 3.1 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-21 07:54:40.047474 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-21 07:55:00.420620 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: f807dd0c-26c1-df11-a662-47f91c36d344 -  - 4
+2025-03-21 07:55:00.497418 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 07:55:00.734112 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 07:55:00.840056 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 07:55:01.055963 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 07:55:01.174635 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpalogic : group  id: 373939e6-21de-4cb3-63bc-9326c911aad0 -  - 
+2025-03-21 07:55:01.457053 - rocketbot - INFO - request: LautaroP_EX2 : line 3.1 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-21 07:55:02.128934 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-21 07:55:02.519530 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.1 - rpascripts : module  id: 4247684a-c106-c4c5-fb47-189981935a02 -  - {"module_name":"AdvancedExcel","module":"countRows","sheet":"Planilla de Facturacion","row_":"C","var_":"filas"}
+2025-03-21 07:55:02.780123 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.2 - rpaexcel : getcell  id: 79584f67-2939-6e53-d67e-e73aad532609 -  - C4:C{filas}
+2025-03-21 07:55:02.898965 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpalogic : group  id: bbb1a720-cda6-35ff-d6b9-99788c1414b4 -  - 
+2025-03-21 07:55:03.180962 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":0}
+2025-03-21 07:55:03.183929 - rocketbot - INFO - For count: 1
+2025-03-21 07:55:03.208862 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:55:03.507521 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:55:03.584670 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:55:03.833757 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":1}
+2025-03-21 07:55:03.836748 - rocketbot - INFO - For count: 2
+2025-03-21 07:55:03.968394 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:55:04.155085 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:55:04.292330 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:55:04.465568 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":2}
+2025-03-21 07:55:04.468543 - rocketbot - INFO - For count: 3
+2025-03-21 07:55:04.663160 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:55:04.787203 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:55:04.986550 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:55:05.106229 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:55:05.570333 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:55:05.834781 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:55:05.956222 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":3}
+2025-03-21 07:55:05.957196 - rocketbot - INFO - For count: 4
+2025-03-21 07:55:06.229978 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:55:06.276852 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:55:06.538006 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:55:06.634284 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:55:07.046825 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:55:07.432975 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":4}
+2025-03-21 07:55:07.433949 - rocketbot - INFO - For count: 5
+2025-03-21 07:55:07.668073 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:55:07.755785 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:55:08.001201 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:55:08.103545 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:55:08.497204 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:55:08.760104 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:55:08.864964 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":5}
+2025-03-21 07:55:08.865962 - rocketbot - INFO - For count: 5
+2025-03-21 07:58:47.270924 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"all"}
+2025-03-21 07:59:06.317017 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: f807dd0c-26c1-df11-a662-47f91c36d344 -  - 4
+2025-03-21 07:59:06.378851 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 07:59:06.641460 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 07:59:06.735138 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 07:59:06.968716 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 07:59:07.044501 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpalogic : group  id: 373939e6-21de-4cb3-63bc-9326c911aad0 -  - 
+2025-03-21 07:59:07.340002 - rocketbot - INFO - request: LautaroP_EX2 : line 3.1 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-21 07:59:08.037548 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-21 07:59:08.411115 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.1 - rpascripts : module  id: 4247684a-c106-c4c5-fb47-189981935a02 -  - {"module_name":"AdvancedExcel","module":"countRows","sheet":"Planilla de Facturacion","row_":"C","var_":"filas"}
+2025-03-21 07:59:08.673436 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.2 - rpaexcel : getcell  id: 79584f67-2939-6e53-d67e-e73aad532609 -  - C4:C{filas}
+2025-03-21 07:59:08.766186 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpalogic : group  id: bbb1a720-cda6-35ff-d6b9-99788c1414b4 -  - 
+2025-03-21 07:59:09.095546 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":0}
+2025-03-21 07:59:09.101497 - rocketbot - INFO - For count: 1
+2025-03-21 07:59:09.350502 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:09.427291 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:09.672800 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:09.747599 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":1}
+2025-03-21 07:59:09.749594 - rocketbot - INFO - For count: 2
+2025-03-21 07:59:10.069780 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:10.316662 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:10.387783 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:10.632019 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":2}
+2025-03-21 07:59:10.639000 - rocketbot - INFO - For count: 3
+2025-03-21 07:59:10.778997 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:10.969049 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:11.102315 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:11.286093 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:11.502627 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:23.582873 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: f807dd0c-26c1-df11-a662-47f91c36d344 -  - 4
+2025-03-21 07:59:23.837312 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 07:59:23.892122 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 07:59:24.158984 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 07:59:24.218934 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 07:59:24.475346 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpalogic : group  id: 373939e6-21de-4cb3-63bc-9326c911aad0 -  - 
+2025-03-21 07:59:24.647354 - rocketbot - INFO - request: LautaroP_EX2 : line 3.1 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-21 07:59:25.401012 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-21 07:59:25.773323 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.1 - rpascripts : module  id: 4247684a-c106-c4c5-fb47-189981935a02 -  - {"module_name":"AdvancedExcel","module":"countRows","sheet":"Planilla de Facturacion","row_":"C","var_":"filas"}
+2025-03-21 07:59:26.035184 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.2 - rpaexcel : getcell  id: 79584f67-2939-6e53-d67e-e73aad532609 -  - C4:C{filas}
+2025-03-21 07:59:26.127961 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpalogic : group  id: bbb1a720-cda6-35ff-d6b9-99788c1414b4 -  - 
+2025-03-21 07:59:26.411105 - rocketbot - INFO - For count: 1
+2025-03-21 07:59:26.435042 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:26.732136 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:26.808990 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:27.057280 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":1}
+2025-03-21 07:59:27.062218 - rocketbot - INFO - For count: 2
+2025-03-21 07:59:27.191491 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:27.392064 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:27.516695 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:27.706284 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":2}
+2025-03-21 07:59:27.712269 - rocketbot - INFO - For count: 3
+2025-03-21 07:59:27.913060 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:28.036805 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:28.221326 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:28.343998 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:28.622665 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:28.758240 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"all"}
+2025-03-21 07:59:29.160965 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:59:29.422820 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":3}
+2025-03-21 07:59:29.424791 - rocketbot - INFO - For count: 4
+2025-03-21 07:59:29.545207 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:29.746169 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:29.853365 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:30.054457 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:30.268497 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:30.452474 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"all"}
+2025-03-21 07:59:30.654046 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:59:30.855268 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":4}
+2025-03-21 07:59:30.857261 - rocketbot - INFO - For count: 5
+2025-03-21 07:59:31.025266 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:31.181520 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:31.348696 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:31.501263 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:31.762619 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:32.134775 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:59:32.286256 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":5}
+2025-03-21 07:59:32.288224 - rocketbot - INFO - For count: 5
+2025-03-21 07:59:51.972017 - rocketbot - INFO - request: LautaroP_EX2 : line 1 - rpasystem : setVar  id: f807dd0c-26c1-df11-a662-47f91c36d344 -  - 4
+2025-03-21 07:59:52.239867 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 07:59:52.280706 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 07:59:52.572126 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 07:59:52.607075 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 07:59:52.896580 - rocketbot - INFO - request: LautaroP_EX2 : line 3 - rpalogic : group  id: 373939e6-21de-4cb3-63bc-9326c911aad0 -  - 
+2025-03-21 07:59:53.005691 - rocketbot - INFO - request: LautaroP_EX2 : line 3.1 - rpaexcel : readxlsx  id: ad8554c5-d9c3-d9ad-ee99-49b0bf06c188 -  - {"file_path":"C:/Users/lauta/OneDrive/Escritorio/rocket_git/Planilla de facturacion - ACONCAGUA 02-2025.xlsx"}
+2025-03-21 07:59:53.790595 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2 - rpalogic : evaluateIf  id: 39fd4ec8-f2a9-6b0e-1675-318b8708e4e0 -  - {flag}
+2025-03-21 07:59:54.168556 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.1 - rpascripts : module  id: 4247684a-c106-c4c5-fb47-189981935a02 -  - {"module_name":"AdvancedExcel","module":"countRows","sheet":"Planilla de Facturacion","row_":"C","var_":"filas"}
+2025-03-21 07:59:54.431277 - rocketbot - INFO - request: LautaroP_EX2 : line 3.2.2 - rpaexcel : getcell  id: 79584f67-2939-6e53-d67e-e73aad532609 -  - C4:C{filas}
+2025-03-21 07:59:54.523030 - rocketbot - INFO - request: LautaroP_EX2 : line 4 - rpalogic : group  id: bbb1a720-cda6-35ff-d6b9-99788c1414b4 -  - 
+2025-03-21 07:59:54.845557 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":0}
+2025-03-21 07:59:54.845557 - rocketbot - INFO - For count: 1
+2025-03-21 07:59:55.113337 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:55.156214 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:55.434126 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:55.501945 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":1}
+2025-03-21 07:59:55.502961 - rocketbot - INFO - For count: 2
+2025-03-21 07:59:56.089638 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:56.147138 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpasystem : setVar  id: 21153e8b-ff90-9795-8f49-10d177c21bec -  - {cont} + 1
+2025-03-21 07:59:56.412287 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":2}
+2025-03-21 07:59:56.415255 - rocketbot - INFO - For count: 3
+2025-03-21 07:59:56.518978 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:56.739179 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:56.842833 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:57.057200 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:57.243213 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:57.456310 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A4:N4","option":"all"}
+2025-03-21 07:59:57.623864 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:59:57.871166 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":3}
+2025-03-21 07:59:57.873154 - rocketbot - INFO - For count: 4
+2025-03-21 07:59:58.009304 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:58.197283 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:58.322218 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:58.518309 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 07:59:58.750519 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 07:59:58.921084 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A4:N4","option":"all"}
+2025-03-21 07:59:59.137775 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 07:59:59.310102 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":4}
+2025-03-21 07:59:59.313093 - rocketbot - INFO - For count: 5
+2025-03-21 07:59:59.525819 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.1 - rpaexcel : getcell  id: 5892e6ec-b4d8-d04b-205d-cbf40ecc89c2 -  - L{cont}
+2025-03-21 07:59:59.631562 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2 - rpalogic : evaluateIf  id: 98b9c184-a67e-b4eb-2fc9-d85f5adc3717 -  - {iva} >= 500000
+2025-03-21 07:59:59.846143 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.1 - rpascripts : module  id: 73f9fd09-0c00-d296-4532-114ce1a23f57 -  - {"module_name":"AdvancedExcel","module":"createSheet","sheet_name":"{nombre}"}
+2025-03-21 07:59:59.946874 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.2 - rpascripts : module  id: c70c5d3c-4c35-b855-070b-9e5b6106e1ae -  - {"module_name":"AdvancedExcel","module":"copyPasteFormat","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3"}
+2025-03-21 08:00:00.365861 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.3 - rpascripts : module  id: 50ebb39d-680b-1f4e-9386-2098bc22f405 -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A1:N3","sheet_name2":"{nombre}","cell_range2":"A1:N3","option":"values_and_number_formats"}
+2025-03-21 08:00:00.605447 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.4 - rpascripts : module  id: 22934026-5a8f-6d4e-e948-2a3be517b2db -  - {"module_name":"AdvancedExcel","module":"copyPaste","sheet_name1":"Planilla de Facturacion","cell_range1":"A{cont}:N{cont}","sheet_name2":"{nombre}","cell_range2":"A4:N4","option":"all"}
+2025-03-21 08:00:00.737095 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1.2.5 - rpasystem : setVar  id: fe7f939e-2768-e5c7-778d-b1e6682fb449 -  - {cont} + 1
+2025-03-21 08:00:01.003092 - rocketbot - INFO - request: LautaroP_EX2 : line 4.1 - rpalogic : for  id: 90631047-1567-03bb-079a-dac15c5a0c7b -  - {"iterable":"{clientes}","count":5}
+2025-03-21 08:00:01.006051 - rocketbot - INFO - For count: 5
+2025-03-21 08:20:54.930769 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.2 - rpascripts : module  id: 1369805b-92bc-dac2-3515-0028bea15534 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"condicion","idvar":"{condicion}"}
+2025-03-21 08:20:54.934758 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'condicion'
+2025-03-21 08:20:54.935755 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'condicion'
+2025-03-21 08:21:18.378572 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.2 - rpascripts : module  id: 1369805b-92bc-dac2-3515-0028bea15534 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"condicion ","idvar":"{condicion}"}
+2025-03-21 08:21:18.387549 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'condicion'
+2025-03-21 08:21:18.388547 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'condicion'
+2025-03-21 08:22:12.008686 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 08:22:12.340446 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 08:22:12.591287 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.2 - rpascripts : module  id: 1369805b-92bc-dac2-3515-0028bea15534 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"condicion ","idvar":"{condicion}"}
+2025-03-21 08:22:12.602220 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): KeyError: 'condicion'
+2025-03-21 08:22:12.606205 - script - ERROR - EXCEPTION IN (<string> script, L_133 ""): KeyError: 'condicion'
+2025-03-21 08:22:16.780018 - rocketbot - INFO - request: LautaroP_EX2 : line 2 - rpalogic : group  id: 9b835570-47bd-65a6-cf90-75bfeaf7670c -  - 
+2025-03-21 08:22:17.040529 - rocketbot - INFO - request: LautaroP_EX2 : line 2.1 - rpascripts : module  id: b2f1eaa1-c96b-3c38-ba8c-40860f420443 -  - {"module_name":"ControlIni","module":"leerIni","content":"{archi_config.ini}","variable":"flag"}
+2025-03-21 08:22:17.101899 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2 - rpalogic : evaluateIf  id: 3540e9be-5f14-eb20-e5e9-84e04444786c -  - {flag}
+2025-03-21 08:22:17.361678 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.1 - rpascripts : module  id: 2509737e-af15-4012-b9be-2b504e81699d -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"path","idvar":"{path}"}
+2025-03-21 08:22:17.439099 - rocketbot - INFO - request: LautaroP_EX2 : line 2.2.2 - rpascripts : module  id: 1369805b-92bc-dac2-3515-0028bea15534 -  - {"module_name":"ControlIni","module":"obtenerDato","idseccion":"excel","iddato":"condicion ","idvar":"{condicion}"}
